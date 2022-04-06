@@ -40,14 +40,13 @@
 	
 	20. apple:first-of-type
 	
-	21. 			.table:nth-of-type(even)
-					div:nth-of-type(2), div:nth-of-type(4), div:nth-of-type(6)
+	21. plate:nth-of-type(even)
 		
 	22. plate:nth-of-type(2n+3)	
 	
 	23. plate  apple:only-of-type
 	
-	24. 
+	24.  orange:last-of-type, apple:last-of-type
 	
 	25. bento:empty
 	
@@ -59,4 +58,8 @@
 	
 	29. [for="Vitaly"]
 	
-	30. 
+	30. [for^="S"]
+	
+	31. [for$="to"]
+	
+	32. [for*="bb"]
